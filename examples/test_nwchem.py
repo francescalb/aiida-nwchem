@@ -18,7 +18,7 @@ from aiida.plugins import DataFactory
 ################################################################
 
 ParameterData = DataFactory('parameter')
-StructureData = DataFactory('structure')
+StructureData = DataFactory('core.structure')
 try:
     dontsend = sys.argv[1]
     if dontsend == '--dont-send':
